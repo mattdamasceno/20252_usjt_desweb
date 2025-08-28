@@ -4,4 +4,6 @@ a = 3
 b = 5
 
 soma = calc.somar(a, b)
-print(f'{a} + {b} = [soma]')
+subtracao = calc.subtrair(a, b)
+print(f'{a} + {b} = {soma}')
+print(f'{a} - {b} = {subtracao}')
